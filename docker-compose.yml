@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  se:
+    image: dtanase22/ua-se-contenedores
+    ports:
+      - "7001:7001"
+    restart: always
+    
